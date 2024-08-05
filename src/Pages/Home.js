@@ -2,14 +2,14 @@ import React from "react";
 import pic2 from "../Img/image1.png";
 function Home() {
   return (
-    <div className="Relative flex flex-col h-[100vh] bg-[#F4F9FF] lg:flex-row">
+    <div className="flex flex-col md:flex-col md:flex h-[100vh] bg-[#F4F9FF] lg:flex-row">
       <div className="flex-1 flex justify-center items-center ml-8 lg:ml-0 ">
         <div className="flex   flex-col ">
           <div className="font-inter font-bold lg:text-5xl  text-2xl flex flex-col ">
             <span>Discover A Place</span>
             <span>You'll Love to Live</span>
           </div>
-          <p className="my-4">
+          <p className="my-4 md:my-0">
             Homie is a real estate soluation that gives you the local <br />
             scoop about homes. Search confidently with your
             <br /> trusted source of homes for sale or rent.
@@ -30,7 +30,7 @@ function Home() {
             </button>
           </div>
         </div>
-        <img className="h-[80%] w-[80%]" src={pic2} />
+        <img className="lg:h-[80%] lg:w-[80%] w-[70%] h-[70%] md:w-[50%] md:h-[50%]" src={pic2} />
       </div>
     </div>
   );
