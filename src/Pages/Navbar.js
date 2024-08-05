@@ -16,7 +16,7 @@ function Navbar() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-gray-500 focus:outline-none sm:hidden"
+          className="text-gray-500 focus:outline-none lg:hidden"
         >
           <svg
             className="w-6 h-6"
@@ -35,39 +35,43 @@ function Navbar() {
         </button>
 
         {/* Navbar Links */}
-        <div className={`w-full jus ml-24  flex-grow sm:flex sm:items-center sm:w-auto ${isOpen ? "block" : "hidden"}`}>
-          <div className="flex flex-col sm:flex-row sm:space-x-4">
-          <Link to="/"
+        <div className={`w-full lg:w-auto ${isOpen ? "block" : "hidden"} lg:flex lg:items-center lg:space-x-4`}>
+          <div className="flex flex-col lg:flex-row lg:space-x-4">
+            <Link
+              to="/"
               className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-[#0061E0]"
             >
               Home
-              </Link>
-            <Link to="/about"
+            </Link>
+            <Link
+              to="/about"
               className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-[#0061E0]"
             >
               About
-              </Link>
-             <Link to="/projects"
+            </Link>
+            <Link
+              to="/projects"
               className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-[#0061E0]"
             >
               Projects
-              </Link>
-           <Link to="/blogs"
+            </Link>
+            <Link
+              to="/blogs"
               className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-[#0061E0]"
             >
               Blogs
-              </Link>
-            
-             <Link to="/contacts"
+            </Link>
+            <Link
+              to="/contacts"
               className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-[#0061E0]"
             >
               Contacts
-              </Link>
+            </Link>
           </div>
         </div>
 
         {/* Search and Button */}
-        <div className="hidden sm:flex items-center space-x-4">
+        <div className="hidden lg:flex items-center space-x-4">
           <div className="relative">
             <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
               <svg
