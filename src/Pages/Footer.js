@@ -15,7 +15,7 @@ function Footer() {
     <div>
          <Newsletter/>
    
-    <div className='flex py-12 bg-black text-white flex-wrap flex-col lg:flex-row'>
+    <div className='flex lg:py-12 bg-black text-white flex-wrap flex-col lg:flex-row'>
         
       <div className='flex flex-1 flex-col justify-center items-center mb-4 lg:mb-0 '>
       <div className='w-80'>
@@ -29,7 +29,8 @@ dummy text of the printing.</p>
 </div>
       </div>
       <div className='flex flex-1 mx-4 lg:mx-0'>
-      <div class="grid grid-cols-3 gap-x-2 lg:gap-x-12">
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-x-2 lg:gap-x-12">
+
         <div className='font-bold text-lg'><h1>Quick links</h1></div>
         <div className='font-bold text-lg'><h1>Serviuce </h1></div>
         <div className='font-bold text-lg'> <h1> Contract</h1></div>

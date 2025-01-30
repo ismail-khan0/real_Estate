@@ -63,6 +63,7 @@ function Navbar() {
             </Link>
             <Link
               to="/contacts"
+              onClick=""
               className="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:text-[#0061E0]"
             >
               Contacts
