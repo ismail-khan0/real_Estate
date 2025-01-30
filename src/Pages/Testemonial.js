@@ -5,7 +5,7 @@ import ts_pics2 from '../Img/Ellipse 55.png'
 import ts_pics3 from '../Img/Avatar.png'
 function Testemonial() {
   return (
-    <div className=" flex-wrap  my-8 lg:my-0 bg-[#E2EFFF]">
+    <div className=" flex-wrap  my-8 lg:my-0 mt-0 lg:mt-8 bg-[#E2EFFF]">
       <div className="flex-col flex justify-center items-center content-center">
         <p className=" text-[#0061E0] mt-4 lg:text-xl text-sm">Our Testemonial</p>
         <div className="font-bold lg:text-4xl text-2xl space-x-2 mb-4 flex flex-row">
