@@ -13,7 +13,7 @@ function About() {
       </div>
 
       <div className="flex-1 h-[50vh] md:h-auto lg:h-auto lg:w-1/2 content-center md:ml-4 ml-8 flex-col space-y-2">
-        <p className="mt-4 md:mt-0">About Us</p>
+        <p className="mt-4 md:mt-0 text-[#0061E0] lg:text-xl text-sm">About Us</p>
         <div className="font-bold text-3xl flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 md:items-center">
           <span>We're on a Mission to Change View of RealEstate Field.</span>
         </div>

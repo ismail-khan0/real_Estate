@@ -1,5 +1,6 @@
 import React from "react";
 import pic2 from "../Img/image1.png";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="flex flex-col md:flex-col md:flex h-[100vh] bg-[#F4F9FF] lg:flex-row">
@@ -14,9 +15,11 @@ function Home() {
             scoop about homes. Search confidently with your
             <br /> trusted source of homes for sale or rent.
           </p>
-          <button className="bg-[#0061E0] text-white px-4 py-2 rounded-md  w-40">
+            <Link
+                        to="/footer" className="bg-[#0061E0] text-white md:mt-4 mt-0 px-4 py-2 rounded-md  w-40">
+            
             Make an Enquiry
-          </button>
+          </Link>
         </div>
       </div>
       <div className="relative flex flex-1 justify-center items-center">

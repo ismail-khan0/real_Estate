@@ -35,7 +35,7 @@ function App() {
         />
 
         <Route
-         
+         path="/about"
           element={
             <>
               <About />
@@ -56,6 +56,7 @@ function App() {
         <Route path="/contacts" element={<Footer />} />
 
         <Route path="/blogs" element={<Featured />} />
+        <Route path="/footer" element={<Footer/>} />
       </Routes>
     </Router>
   );

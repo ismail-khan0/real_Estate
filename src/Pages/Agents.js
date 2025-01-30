@@ -5,7 +5,7 @@ function Agents() {
   return (
     <div className='flex justify-center items-center'>
       <div className='flex flex-col lg:flex-row w-[66%] px-4 py-12 bg-[#E2EFFF] justify-center items-center'>
-      <div className='flex flex-1 flex-col lg:flex-row justify-center items-center mb-4 lg:mb-0'>
+      <div className='flex flex-1 flex-col lg:flex-row  justify-center items-center mb-4 lg:mb-0'>
         <div className='flex  bg-white justify-center items-center rounded-full w-12 h-12 mx-4'>
 <div className='text-[#0061E0] '><Groups2Icon fontSize='large'/></div>
 </div>
