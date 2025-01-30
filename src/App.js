@@ -9,7 +9,9 @@ import Featured from "./Pages/Featured";
 import Testemonial from "./Pages/Testemonial";
 import Footer from "./Pages/Footer";
 import Servicecard from "./Components/Servicecard";
+import ContactPage from "./Pages/ContactPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
@@ -53,7 +55,7 @@ function App() {
           }
         />
 
-        <Route path="/contacts" element={<Footer />} />
+        <Route path="/contacts" element={<ContactPage/>} />
 
         <Route path="/blogs" element={<Featured />} />
         <Route path="/footer" element={<Footer/>} />
